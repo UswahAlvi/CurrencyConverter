@@ -1,0 +1,11 @@
+.input{
+    display: flex;
+    gap:2rem
+}
+@media(max-width:490px){
+    .input{
+        display: flex;
+        flex-direction: column;
+        gap:2rem
+    }
+}
